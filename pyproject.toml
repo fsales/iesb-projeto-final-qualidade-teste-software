@@ -3,7 +3,7 @@ name = "estudo-caso"
 version = "0.1.0"
 description = ""
 authors = ["Fábio Sales <fabio.oliveira.sales@gmail.com>"]
-include=["estudo_caso/settings.toml"]
+include = ["estudo_caso/settings.toml"]
 
 [tool.poetry.dependencies]
 python = "^3.10"

@@ -1,0 +1,1982 @@
+[2022-05-09 23:23:44,785] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:23:44,802] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:25:02,490] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 0)
+[2022-05-09 23:25:59,861] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:25:59,878] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:26:15,374] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:26:15,377] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:27:35,551] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2022-05-09 23:27:39,647] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 10} (10 total users)
+[2022-05-09 23:32:31,421] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 0)
+[2022-05-09 23:34:32,835] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:34:32,853] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:34:43,176] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2022-05-09 23:34:47,186] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 10} (10 total users)
+[2022-05-09 23:36:06,217] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:36:09,390] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:36:09,404] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:36:13,507] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:36:13,508] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:39:28,182] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:39:34,577] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:39:34,594] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:39:39,116] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:39:39,118] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:39:39,121] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:39,123] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:40,220] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:40,220] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:40,902] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,090] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,090] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,091] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,272] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,273] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,450] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,451] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,451] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,968] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:41,968] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:42,317] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:42,676] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:42,676] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:42,676] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:42,677] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:42,677] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:43,198] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:43,368] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:43,547] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:43,548] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:43,717] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:43,890] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,057] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,057] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,057] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,249] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,419] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,420] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,589] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,759] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,928] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:44,929] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,102] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,102] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,281] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,456] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,457] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,631] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,801] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,801] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:45,801] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:46,499] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:46,499] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:46,842] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:46,842] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:47,529] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:47,706] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:47,880] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:48,053] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:48,225] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:48,677] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:48,678] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:48,678] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:48,678] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:49,396] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:49,396] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:49,739] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:49,739] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:49,739] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:50,078] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:50,774] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:50,946] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:51,460] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:51,461] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:51,461] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:52,164] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:52,164] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:52,165] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:52,334] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:52,851] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,023] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,197] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,198] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,369] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,544] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,716] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:53,889] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:54,576] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:54,921] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:55,090] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:55,091] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:55,264] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:55,606] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:55,606] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:55,607] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:56,287] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:56,636] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:56,809] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:57,838] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:58,013] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:58,190] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:58,707] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:58,707] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:39:59,063] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,288] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,289] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,290] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,459] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,460] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,460] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,460] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,629] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:00,629] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:01,482] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:01,828] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:02,347] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:02,347] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:02,517] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:04,991] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:05,167] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:05,522] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:05,522] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:05,696] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    data=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:05,718] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:40:20,259] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:40:20,274] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:40:22,883] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:40:22,885] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:40:22,886] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:23,274] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:23,442] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:23,636] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:23,808] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:23,978] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:25,367] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:25,719] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:25,719] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:26,236] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:26,236] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:26,236] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:26,419] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:26,420] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:26,778] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:27,289] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:27,802] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:27,802] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:28,150] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:28,496] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:28,664] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,540] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,710] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,711] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,892] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,893] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,893] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:29,893] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,258] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,258] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,613] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,614] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,615] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,807] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,808] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,808] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,986] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,986] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,986] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,986] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:30,986] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:31,166] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:31,345] Mac-mini-de-Fabio.local/ERROR/locust.user.task: name 'json' is not defined
+Traceback (most recent call last):
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 319, in run
+    self.execute_next_task()
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/Users/fabiosales/Library/Caches/pypoetry/virtualenvs/estudo-caso-3QCiNCi8-py3.10/lib/python3.10/site-packages/locust/user/task.py", line 356, in execute_task
+    task(self)
+  File "/Users/fabiosales/Documents/estudo/python/locust/estudo_caso/rota_usuarios.py", line 21, in test_create_users
+    json=json.dumps(payload),
+NameError: name 'json' is not defined
+
+[2022-05-09 23:40:34,519] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:40:47,194] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:40:47,208] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:40:49,983] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:40:49,984] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:41:11,814] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:41:50,747] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:41:50,762] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:41:54,147] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:41:54,149] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:44:54,807] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:55:08,681] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:55:08,697] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:55:15,553] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:55:15,558] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:55:20,324] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-05-09 23:58:26,167] Mac-mini-de-Fabio.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089 (accepting connections from all network interfaces)
+[2022-05-09 23:58:26,202] Mac-mini-de-Fabio.local/INFO/locust.main: Starting Locust 2.8.6
+[2022-05-09 23:58:29,382] Mac-mini-de-Fabio.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-05-09 23:58:29,425] Mac-mini-de-Fabio.local/INFO/locust.runners: All users spawned: {"WebSiteUser": 1} (1 total users)
+[2022-05-09 23:59:23,197] Mac-mini-de-Fabio.local/INFO/locust.main: Shutting down (exit code 1)
