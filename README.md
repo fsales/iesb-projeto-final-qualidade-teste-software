@@ -10,7 +10,7 @@ Centro Universitário IESB.
 
 ## Disciplina
 
-Programação para Web e Dispositivos Móveis.
+Qualidade e Testes de Software.
 
 ## Professor
 
@@ -21,6 +21,12 @@ Ana Cristina Fernandes Lima
     RMTADSA
 
 ## Aluno(s)
+   * Alex de Oliveira Moreira
+   * Davidson Pereira Campos
+   * Fábio de Oliveira Sales
+   * Gabriel Dennis Pereira de Faria
+   * Natana Felix da Rocha 
+     
 
 ## Objetivo
 
@@ -73,4 +79,6 @@ ou
     poetry shell
     locust  
 ```
+
+Acesse o projeto no endereço  http://localhost:8089.
 
