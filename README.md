@@ -30,3 +30,29 @@ Teste de Perfomance/Carga/Stress da API [Serverest](https://serverest.dev/)
 ### Mão no código
 - [x] Instalar [Python](https://www.python.org/downloads/)
 - [x] Instalar [Poetry](https://github.com/python-poetry/poetry#Installation)
+
+### Instando o ambiente
+- Comando a seguir instala as dependências do projeto.
+```sh
+    poetry install
+```
+
+- Comando a seguir ativa o ambiente virtual do poetry.
+```sh
+    poetry shell
+```
+
+- Comando a seguir adicina as dependências no projeto.
+```sh
+    poetry add {nome-dependência}
+```
+
+### Executando o programa
+
+```sh
+    python -m estudo_caso 
+```
+
+
+
+
