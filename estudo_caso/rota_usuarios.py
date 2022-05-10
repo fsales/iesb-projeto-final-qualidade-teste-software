@@ -1,16 +1,19 @@
 from locust import TaskSet, task
+from faker import Faker
 
 
-class UserRouteLoadTest(TaskSet):
+class UsuarioRouteLoadTest(TaskSet):
 
     @task()
-    def test_list_users(self):
+    def test_list_usuarios(self):
         self.client.get("/usuarios", name="Listar usuários")
 
     @task()
-    def test_create_users(self):
+    def test_create_usuarios(self):
+        fake = Faker()
+
         payload = {
-            "nome": "Teste Carga",
+            "nome": fake.name(),
             "email": "testcaga55887@qa.com.br",
             "password": "teste123",
             "administrador": "true"
