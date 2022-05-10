@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "estudo-caso"
+version = "0.1.0"
+description = ""
+authors = ["Fábio Sales <fabio.oliveira.sales@gmail.com>"]
+include=["estudo_caso/settings.toml"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dynaconf = "^3.1.8"
+flake8 = "^4.0.1"
+locust = "^2.8.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^8.3.0"
+
+[tool.poetry.scripts]
+teste_carga = "estudo_caso.__main__:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
