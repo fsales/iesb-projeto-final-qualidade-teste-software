@@ -21,11 +21,11 @@ Ana Cristina Fernandes Lima
     RMTADSA
 
 ## Aluno(s)
-    Alex de Oliveira Moreira
-    Davidson Pereira Campos
-    Fábio de Oliveira Sales
-    Gabriel Dennis Pereira de Faria
-    Natana Felix da Rocha 
+   * Alex de Oliveira Moreira
+   * Davidson Pereira Campos
+   * Fábio de Oliveira Sales
+   * Gabriel Dennis Pereira de Faria
+   * Natana Felix da Rocha 
      
 
 ## Objetivo
