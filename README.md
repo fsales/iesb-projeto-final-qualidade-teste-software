@@ -10,7 +10,7 @@ Centro Universitário IESB.
 
 ## Disciplina
 
-Programação para Web e Dispositivos Móveis.
+Qualidade e Testes de Software.
 
 ## Professor
 
@@ -79,4 +79,6 @@ ou
     poetry shell
     locust  
 ```
+
+Acesse o projeto no endereço  http://localhost:8089.
 
