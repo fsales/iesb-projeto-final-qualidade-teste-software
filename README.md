@@ -66,7 +66,7 @@ Teste de Perfomance/Carga/Stress da API [Serverest](https://serverest.dev/)
 ### Executando o programa
 
 ```sh
-    poetry run locust --locustfile estudo_caso/teste_suite.py --csv serveres_test --logfile serverest_test --host https://serverest.dev 
+    poetry run locust --locustfile estudo_caso/tests/teste_suite.py --csv serveres_test --logfile serverest_test.log --host https://serverest.dev 
 ```
 
 ### Executando o programa com a configuração do "locust.conf"
