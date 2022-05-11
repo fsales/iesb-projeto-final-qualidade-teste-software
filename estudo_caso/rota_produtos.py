@@ -1,5 +1,6 @@
 from locust import TaskSet, task
 
+
 class ProdutosRouteLoadTest(TaskSet):
 
     @task()
