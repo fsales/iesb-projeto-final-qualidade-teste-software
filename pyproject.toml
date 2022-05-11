@@ -2,7 +2,13 @@
 name = "estudo-caso"
 version = "0.1.0"
 description = ""
-authors = ["Fábio Sales <fabio.oliveira.sales@gmail.com>"]
+authors = [
+        "Alex de Oliveira Moreira <alex.moreira@iesb.edu.br>",
+        "Davidson Pereira Campos <campos.eee@gmail.com>",
+        "Fábio de Oliveira Sales <fabio.oliveira.sales@gmail.com>",
+        "Gabriel Dennis Pereira de Faria <gabriel.dennis@iesb.edu.br>",
+        "Natana Felix da Rocha <Nata_felix@hotmail.com>"
+        ]
 include = ["estudo_caso/settings.toml"]
 
 [tool.poetry.dependencies]
