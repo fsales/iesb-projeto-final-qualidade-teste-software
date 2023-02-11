@@ -20,7 +20,7 @@ Faker = "^13.11.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-ipython = "^8.3.0"
+ipython = "^8.10.0"
 black = {version = "^22.3.0", allow-prereleases = true}
 
 [tool.poetry.scripts]
